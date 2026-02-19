@@ -393,3 +393,68 @@ Don´t forget the 60-30-10 rule when applying these colors:
 --color-secondary-rgb: rgb(10, 15, 35);
 --color-secondary-hex: #0A0F23;
 ```
+
+11. ELECTRIC LAVENDER & MIDNIGHT INDIGO
+- Example: 
+
+```css
+/* ELECTRIC LAVENDER */
+--color-primary-rgb: rgb(124, 131, 255);
+--color-primary-hex: #7C83FF;
+
+/* MIDNIGHT INDIGO */
+--color-secondary-rgb: rgb(31, 33, 64);
+--color-secondary-hex: #1F2140;
+```
+
+12. PEARL WHITE & CHARCOAL STONE 
+- Example: 
+
+```css
+/* PEARL WHITE */
+--color-primary-rgb: rgb(245, 246, 247);
+--color-primary-hex: #F5F6F7;
+
+/* CHARCOAL STONE */
+--color-secondary-rgb: rgb(47, 47, 51);
+--color-secondary-hex: #2F2F33;
+```
+
+13. LASER AQUA BLUE & DEEP OCEAN TEAL 
+- Example: 
+
+```css
+/* LASER AQUA BLUE */
+--color-primary-rgb: rgb(46, 242, 226);
+--color-primary-hex: #2EF2E2;
+
+/* DEEP OCEAN TEAL */
+--color-secondary-rgb: rgb(15, 47, 47);
+--color-secondary-hex: #0F2F2F;
+```
+
+14. LIME GREEN & TEAL GREEN 
+- Example: 
+
+```css
+/* LIME GREEN */
+--color-primary-rgb: rgb(164, 240, 0);
+--color-primary-hex: #A4F000;
+
+/* TEAL GREEN */
+--color-secondary-rgb: rgb(0, 63, 58);
+--color-secondary-hex: #003F3A;
+```
+
+15. SUNSET TANGERINE & DEEP INK BLUE 
+- Example: 
+
+```css
+/* PEARL WHITE */
+--color-primary-rgb: rgb(255, 158, 109);
+--color-primary-hex: #FF9E6D;
+
+/* CHARCOAL STONE */
+--color-secondary-rgb: rgb(26, 34, 56);
+--color-secondary-hex: #1A2238;
+```
