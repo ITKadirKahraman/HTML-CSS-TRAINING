@@ -1,5 +1,12 @@
 **UI Color Tokens**
 
+
+***A QUICK TECHNICAL TIP:***
+Don´t forget the 60-30-10 rule when applying these colors:
+- 60% Dominant Color (usually the background)
+- 30% Secondary Color (used for balance and varietyl)
+- 10% Accent Color (for Call to Actions or key details)
+
 ***GENERALLY***
 ```css
 /* Primary */
@@ -107,6 +114,139 @@
 --color-primary-hex: #D7CCC8;
 ```
 
+
+***BUSINESS Color Palettes & Color Variables & RGB Reference***
+
+1. MODERN MINIMALIST COLOR PALETTES
+- Example: 
+
+```css
+/* DEEP CHARCOAL */
+--color-primary-rgb: rgb(45, 52, 54);
+--color-primary-hex: #2D3436;
+```
+
+```css
+/* SOFT GREY */
+--color-primary-rgb: rgb(223, 230, 233);
+--color-primary-hex: #DFE6E9;
+```
+
+```css
+/* PURE WHITE */
+--color-primary-rgb: rgb(255, 255, 255);
+--color-primary-hex: #FFFFFF;
+```
+
+
+2. HIGH CONTRAST TECH
+- Example: 
+
+```css
+/* ELECTRIC BLUE */
+--color-primary-rgb: rgb(9, 132, 227);
+--color-primary-hex: #0984E3;
+```
+
+```css
+/* NIGHT BLACK */
+--color-primary-rgb: rgb(30, 39, 46);
+--color-primary-hex: #1E272E;
+```
+
+```css
+/* CYAN NEON */
+--color-primary-rgb: rgb(0, 206, 201);
+--color-primary-hex: #00CEC9;
+```
+
+```css
+/* CLOUD WHITE */
+--color-primary-rgb: rgb(245, 246, 250);
+--color-primary-hex: #F5F6FA;
+```
+
+3. EARTHY & ORGANIC
+- Example: 
+
+```css
+/* FOREST GREEN */
+--color-primary-rgb: rgb(45, 79, 30);
+--color-primary-hex: #2D4F1E;
+```
+
+```css
+/* WARM BEIGE */
+--color-primary-rgb: rgb(245, 230, 204);
+--color-primary-hex: #F5E6CC;
+```
+
+```css
+/* TERRACOTTA */
+--color-primary-rgb: rgb(226, 125, 96);
+--color-primary-hex: #E27D60;
+```
+
+```css
+/* SLATE GREY */
+--color-primary-rgb: rgb(74, 74, 74);
+--color-primary-hex: #4A4A4A;
+```
+
+4. BOLD & ENERGETIC
+- Example: 
+
+```css
+/* VIVID ORANGE */
+--color-primary-rgb: rgb(255, 118, 117);
+--color-primary-hex: #FF7675;
+```
+
+```css
+/* DEEP PURPLE */
+--color-primary-rgb: rgb(108, 92, 231);
+--color-primary-hex: #6C5CE7;
+```
+
+```css
+/* SOFT MINT */
+--color-primary-rgb: rgb(85, 230, 193);
+--color-primary-hex: #55E6C1;
+```
+
+```css
+/* DARK SLATE */
+--color-primary-rgb: rgb(47, 54, 64);
+--color-primary-hex: #2F3640;
+```
+
+
+5. LUXURY & ELEGANT
+- Example: 
+
+```css
+/* MIDNIGHT NAVY */
+--color-primary-rgb: rgb(25, 42, 86);
+--color-primary-hex: #192A56;
+```
+
+```css
+/* CHAMPAGNE */
+--color-primary-rgb: rgb(247, 215, 148);
+--color-primary-hex: #F7D794;
+```
+
+```css
+/* DUSTY ROSE */
+--color-primary-rgb: rgb(237, 166, 163);
+--color-primary-hex: #EDA6A3;
+```
+
+```css
+/* PEARL WHITE */
+--color-primary-rgb: rgb(252, 251, 251);
+--color-primary-hex: #FCFBFB;
+```
 
 
 ***Color Combos & Color Variables & RGB Reference***
