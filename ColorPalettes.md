@@ -458,3 +458,77 @@ Don´t forget the 60-30-10 rule when applying these colors:
 --color-secondary-rgb: rgb(26, 34, 56);
 --color-secondary-hex: #1A2238;
 ```
+
+***Colors & Color Variables & RGB Reference***
+
+1. LIME 
+- Example: 
+
+```css
+/* LIME */
+--color-primary-rgb: rgb(198, 255, 51);
+--color-primary-hex: #C6FF34;
+```
+
+2. CHARCOAL BLACK 
+- Example: 
+
+```css
+/* CHARCOAL BLACK */
+--color-primary-rgb: rgb(17, 17, 17);
+--color-primary-hex: #111111;
+```
+
+3. RODEO DUST 
+- Example: 
+
+```css
+/* RODEO DUST */
+--color-primary-rgb: rgb(205, 180, 158);
+--color-primary-hex: #CDB49E;
+```
+
+4. GREY BLACK 
+- Example: 
+
+```css
+/* GREY BLACK */
+--color-primary-rgb: rgb(26, 26, 26);
+--color-primary-hex: #1A1A1A;
+```
+
+5. DUSTY OLIVE 
+- Example: 
+
+```css
+/* DUSTY OLIVE */
+--color-primary-rgb: rgb(181, 172, 138);
+--color-primary-hex: #B5AC8A;
+```
+
+6. BURGUNDY 
+- Example: 
+
+```css
+/* BURGUNDY */
+--color-primary-rgb: rgb(109, 0, 26);
+--color-primary-hex: #6D001A;
+```
+
+7. CRIMSON RED 
+- Example: 
+
+```css
+/* CRIMSON RED */
+--color-primary-rgb: rgb(230, 30, 50);
+--color-primary-hex: #E61E32;
+```
+
+8. STEEL GREY 
+- Example: 
+
+```css
+/* STEEL GREY */
+--color-primary-rgb: rgb(179, 179, 179);
+--color-primary-hex: #B3B3B3;
+```
