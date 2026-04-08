@@ -1,0 +1,80 @@
+/*
+****** universal styling
+*/
+
+:root {
+    /*
+    color
+    */
+    --background-color: rgb(0, 78, 100);
+    --color-gray: rgb(224, 229, 233);
+    --color-lilac: rgb(214, 193, 232);
+    --color-navy: rgb(10, 37, 64);
+    --color-powderBlue: rgb(199, 221, 235);
+    --color-nightBlack: rgb(30, 39, 46);
+    --color-cyanNoen: rgb(0, 206, 201);
+    --color-forestGreen: rgb(45, 79, 30);
+    /*
+    font
+    */
+    --font-family: 'Karla', sans-serif;
+    --font-sizeH1: 34px;
+    --font-sizeP: 14px;
+    /*
+    size
+    */
+    --size-100vh: 100vh;
+    --size-25P: 25%;
+    --size-5PX: 5px;
+    --size-15PX: 15px;
+    --size-48PX: 48px;
+    --size-100PX: 100px;
+    --size-188px: 188px;
+    --size-250px: 250px;
+}
+
+html, 
+body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--background-color);
+    font-family: var(--font-family);
+    color: var(--color-cyanNoen);
+}
+
+main {
+    min-height: calc(var(--size-100vh) - var(--size-188px));
+}
+
+/*
+****** projects
+*/
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-forestGreen);
+    height: var(--size-100vh);
+    padding: var(--size-25P);
+}
+
+.button {
+    background-color: var(--color-lilac);
+    border-color: var(--color-gray);
+    border: var(--size-5PX) solid;
+    border-radius: var(--size-15PX);
+    height: var(--size-48PX);
+    width: var(--size-100PX);
+    cursor: pointer;
+}
+
+/*
+****** pseudo classes
+*/
+
+.button:hover {
+    background-color: var(--color-nightBlack);
+    border-color: var(--color-gray);
+    color: var(--color-gray);
+}
