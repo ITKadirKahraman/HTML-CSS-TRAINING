@@ -1,0 +1,112 @@
+/*
+****** universal styling
+*/
+
+:root {
+    /*
+    color
+    */
+    --background-color: rgb(0, 78, 100);
+    --color-gray: rgb(224, 229, 233);
+    --color-lilac: rgb(214, 193, 232);
+    --color-navy: rgb(10, 37, 64);
+    --color-powderBlue: rgb(199, 221, 235);
+    --color-nightBlack: rgb(30, 39, 46);
+    --color-cyanNoen: rgb(0, 206, 201);
+    --color-forestGreen: rgb(45, 79, 30);
+    --color-organe: rgb(255, 165, 0);
+    --color-red: red;
+
+    /*
+    font
+    */
+    --font-family: 'Karla', sans-serif;
+    --font-sizeH1: 34px;
+    --font-sizeP: 14px;
+    /*
+    size
+    */
+    --size-0: 0;
+    --size-100vh: 100vh;
+    --size-25P: 25%;
+    --size-1MPX: -1px;
+    --size-1PX: 1px;
+    --size-5PX: 5px;
+    --size-10PX: 10px;
+    --size-15PX: 15px;
+    --size-48PX: 48px;
+    --size-100PX: 100px;
+    --size-100P: 100%;
+    --size-188px: 188px;
+    --size-250px: 250px;
+    --size-200: 200;
+    --size-05em: 0.5em;
+    --size-1K5em: 1.5em;
+}
+
+html, 
+body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--color-gray);
+    font-family: var(--font-family);
+    color: var(--color-forestGreen);
+}
+
+main {
+    min-height: calc(var(--size-100vh) - var(--size-188px));
+}
+
+/*
+****** projects
+*/
+
+.headerline {
+    padding-top: var(--size-48PX);
+    text-align: center;
+}
+
+.rings {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ring{
+    border-radius: 50%;
+}
+
+.rings, .ring{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ring1{
+    height: 200px;
+    width: 200px;
+    background-color: black;
+}
+
+.ring2{
+    height: 150px;
+    width: 150px;
+    background-color: blue;
+}
+
+.ring3{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+}
+
+.bullseye {
+    height: 50px;
+    width: 50px;
+    background-color: yellow;
+}
+
+
+/*
+****** pseudo classes
+*/
