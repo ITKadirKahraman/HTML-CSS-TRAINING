@@ -1,0 +1,108 @@
+/*
+****** universal styling
+*/
+
+:root {
+    /*
+    color
+    */
+    --background-color: rgb(0, 78, 100);
+    --color-gray: rgb(224, 229, 233);
+    --color-lilac: rgb(214, 193, 232);
+    --color-navy: rgb(10, 37, 64);
+    --color-powderBlue: rgb(199, 221, 235);
+    --color-nightBlack: rgb(30, 39, 46);
+    --color-cyanNoen: rgb(0, 206, 201);
+    --color-forestGreen: rgb(45, 79, 30);
+    --color-organe: rgb(255, 165, 0);
+    --color-red: red;
+
+    /*
+    font
+    */
+    --font-family: 'Karla', sans-serif;
+    --font-sizeH1: 34px;
+    --font-sizeP: 14px;
+    /*
+    size
+    */
+    --size-0: 0;
+    --size-100vh: 100vh;
+    --size-25P: 25%;
+    --size-1MPX: -1px;
+    --size-1PX: 1px;
+    --size-5PX: 5px;
+    --size-10PX: 10px;
+    --size-15PX: 15px;
+    --size-48PX: 48px;
+    --size-100PX: 100px;
+    --size-100P: 100%;
+    --size-188px: 188px;
+    --size-250px: 250px;
+    --size-200: 200;
+    --size-05em: 0.5em;
+    --size-1K5em: 1.5em;
+}
+
+html, 
+body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--color-gray);
+    font-family: var(--font-family);
+    color: var(--color-forestGreen);
+}
+
+main {
+    min-height: calc(var(--size-100vh) - var(--size-188px));
+}
+
+/*
+****** projects
+*/
+
+.headerline {
+    padding-top: var(--size-48PX);
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h2{
+    display: block;
+    font-size: 2em;
+    font-weight: bold;
+    unicode-bidi: isolate; 
+}
+
+h2::after{
+    content: '';
+    animation: 6s swap infinite;
+    background: var(--background-color);
+    padding: 10px;
+    color: white;
+    margin-left: 4px;
+}
+
+@keyframes swap{
+    0%{
+        content: 'coding';
+    }25%{
+        content: 'cats';
+    }50%{
+        content: 'money'
+    }75%{
+        content: 'house';
+    }100%{
+        content: 'cars';
+    }
+}
+
+
+/*
+****** pseudo classes
+*/
