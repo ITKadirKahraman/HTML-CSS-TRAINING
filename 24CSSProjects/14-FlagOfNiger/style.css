@@ -1,0 +1,97 @@
+/*
+****** universal styling
+*/
+
+:root {
+    /*
+    color
+    */
+    --background-color: rgb(0, 78, 100);
+    --color-gray: rgb(224, 229, 233);
+    --color-lilac: rgb(214, 193, 232);
+    --color-powderBlue: rgb(199, 221, 235);
+    --color-black: rgb(0, 0, 0);
+
+    --white: #ffffff;
+    --nigerOrange: #e15307;
+    --nigerGreen: #10af2a;
+
+    /*
+    font
+    */
+    --font-family: 'Karla', sans-serif;
+    --font-sizeH1: 34px;
+    --font-sizeP: 14px;
+    /*
+    size
+    */
+    --size-100vh: 100vh;
+    --size-188px: 188px;
+    --flag-hw: 200px;
+}
+
+html, 
+body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--color-black);
+    font-family: var(--font-family);
+    color: var(--color-black);
+}
+
+main {
+    min-height: calc(var(--size-100vh) - var(--size-188px));
+}
+
+/*
+****** projects
+*/
+
+.headerline {
+    padding-top: var(--size-48PX);
+    text-align: center;
+    color: var(--color-powderBlue);
+    padding-bottom: 20%;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-lilac);
+}
+
+.flag{
+    display: grid;
+    margin: 1em auto;
+    height: var(--flag-hw);
+    width: calc(var(--flag-hw) * 7 / 6);
+}
+
+.circle {
+    position: absolute;
+    border-radius: 50%;
+    background: var(--nigerOrange);
+    height: calc(var(--flag-hw) / 3 * 0.85);
+    width: calc(var(--flag-hw) / 3 * 0.85);
+}
+
+.orange {
+    background: var(--nigerOrange);
+}
+
+.white {
+    background: var(--white);
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.green{
+    background: var(--nigerGreen);
+}
+
+/*
+****** pseudo classes
+*/
