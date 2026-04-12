@@ -1,0 +1,135 @@
+/*
+****** universal styling
+*/
+
+:root {
+    /*
+    color
+    */
+    --background-color: rgb(0, 78, 100);
+    --color-gray: rgb(224, 229, 233);
+    --color-lilac: rgb(214, 193, 232);
+    --color-powderBlue: rgb(199, 221, 235);
+    --color-black: rgb(0, 0, 0);
+    --white: #ffffff;
+    --img-border: #2e343b;
+    --profil-bg: #0d1117;
+    --username-color: #8b949e;
+    --btn-bg: #21262d;
+    --btn-color: #c9d1d9;
+    --btn-bg-hover: #30363d;
+    --btn-border: #373b43;
+    --btn-border-hover: #8c949e;
+
+    /*
+    font
+    */
+    --font-family: 'Karla', sans-serif;
+    --font-sizeH1: 34px;
+    --font-sizeP: 14px;
+    /*
+    size
+    */
+    --size-100vh: 100vh;
+    --size-188px: 188px;
+    --profil-hw: 400px;
+    --username-weight: 400;
+}
+
+html, 
+body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--color-black);
+    font-family: var(--font-family);
+    color: var(--color-black);
+}
+
+main {
+    min-height: calc(var(--size-100vh) - var(--size-188px));
+}
+
+/*
+****** projects
+*/
+
+.headerline {
+    padding-top: var(--size-48PX);
+    text-align: center;
+    color: var(--color-powderBlue);
+    padding-bottom: 20%;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: var(--profil-bg);
+    width: 80%;
+    min-width: 250px;
+    max-width: 400px;
+    margin: 1em auto;
+    height: 70vh;
+}
+
+.profilImage {
+    height: 40vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profilImage img {
+    height: 100%;
+    max-width: 100%;
+    border-radius: 50%;
+    border: 2px solid var(--img-border);
+}
+
+.profilLayout {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 1em 0;
+}
+
+.profilLayout h2,
+.profilLayout h3{
+    margin: 0;
+}
+
+.profilLayout h2{
+    color: var(--white);
+}
+
+.profilLayout h3{
+    font-size: 1em;
+    color: var(--username-color);
+    font-weight: var(--username-weight);
+}
+
+.profilLayout p{
+    color: var(--white);
+}
+
+.profilLayout button {
+    cursor: pointer;
+    color: var(--btn-color);
+    background-color: var(--btn-bg);
+    width: 100%;
+    border-radius: 6px;
+    border: 1px solid var(--btn-border);
+    font-family: inherit;
+}
+
+.profilLayout button:hover {
+    background-color: var(--btn-bg-hover);
+    border: 1px solid var(--btn-border-hover);
+}
+
+/*
+****** pseudo classes
+*/
